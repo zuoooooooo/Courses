@@ -21,8 +21,8 @@ This project aims to compare different optimization algorithms, including FISTA 
 - `solution.txt`: Solution file
 
 ### Figures
-- `AGD-1.png`: Accelerated Gradient Descent 1 chart
-- `AGD-2.png`: Accelerated Gradient Descent 2 chart
+- `PGD-1.png`: Proximal Gradient Descent 1 chart
+- `PGD-2.png`: Proximal Gradient Descent 2 chart
 - `C1.png`: C1 chart
 - `C2.png`: C2 chart
 - `FISTA-1.png`: FISTA 1 chart
@@ -85,8 +85,8 @@ For any questions or inquiries, please contact zuoyihong@mail.ustc.edu.cn.
 - `solution.txt`：解决方案文件
 
 ### figures
-- `AGD-1.png`：加速梯度下降1的图表
-- `AGD-2.png`：加速梯度下降2的图表
+- `PGD-1.png`：近似点梯度下降1的图表
+- `PGD-2.png`：近似点梯度下降2的图表
 - `C1.png`：C1图表
 - `C2.png`：C2图表
 - `FISTA-1.png`：FISTA 1的图表
