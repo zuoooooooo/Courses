@@ -1,6 +1,9 @@
 # Optimization Experiment
 
 This repository contains files and scripts for an optimization experiment. The project includes various input data, methods, results, and charts related to the tested optimization algorithms.
+## Project Description
+
+This project aims to compare different optimization algorithms, including FISTA (Fast Iterative Shrinkage-Thresholding Algorithm) and proximal gradient methods. The generated results and charts provide insights into the performance and convergence characteristics of these algorithms.
 
 ## Directory Structure
 - `Optimization Experiment Report.pdf`: PDF document of the optimization experiment report
@@ -54,9 +57,6 @@ This repository contains files and scripts for an optimization experiment. The p
     - Check the charts in the `figures` directory for visual representations of the optimization process.
     - Read the `Optimization Experiment Report.pdf` for a detailed report on the experiment.
 
-## Project Description
-
-This project aims to compare different optimization algorithms, including FISTA (Fast Iterative Shrinkage-Thresholding Algorithm) and proximal gradient methods. The generated results and charts provide insights into the performance and convergence characteristics of these algorithms.
 
 ## Contact
 
@@ -66,6 +66,9 @@ For any questions or inquiries, please contact zuoyihong@mail.ustc.edu.cn.
 # 优化实验
 
 这个仓库包含了一个优化实验的文件和脚本。该项目包括了与测试的优化算法相关的各种输入数据、方法、结果和图表。
+## 项目描述
+
+该项目旨在比较不同的优化算法，包括FISTA（快速迭代收缩阈值算法）和近似点梯度方法。生成的结果和图表有助于理解这些算法的性能和收敛特性。
 
 ## 目录结构
 - `优化实验报告.pdf`：优化实验报告的PDF文档
@@ -120,9 +123,6 @@ For any questions or inquiries, please contact zuoyihong@mail.ustc.edu.cn.
     - 参考`figures`目录中的图表，了解优化过程的可视化表示。
     - 阅读`优化实验报告.pdf`，了解实验的全面报告。
 
-## 项目描述
-
-该项目旨在比较不同的优化算法，包括FISTA（快速迭代收缩阈值算法）和近似点梯度方法。生成的结果和图表有助于理解这些算法的性能和收敛特性。
 
 ## 联系方式
 
