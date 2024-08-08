@@ -1,3 +1,68 @@
+# Optimization Experiment
+
+This repository contains files and scripts for an optimization experiment. The project includes various input data, methods, results, and charts related to the tested optimization algorithms.
+
+## Directory Structure
+- `Optimization Experiment Report.pdf`: PDF document of the optimization experiment report
+- `environment.yml`: Environment configuration file for setting up dependencies
+- `lab.ipynb`: Jupyter Notebook containing the experiment code and analysis
+- `README.md`: This README file
+
+### Input Files
+- `a9a.txt`: Input data file
+- `FISTA1`: First FISTA method file
+- `FISTA2`: Second FISTA method file
+- `Prox1`: First proximal method file
+- `Prox2`: Second proximal method file
+- `result.txt`: Optimization experiment results
+- `solution.txt`: Solution file
+
+### Figures
+- `AGD-1.png`: Accelerated Gradient Descent 1 chart
+- `AGD-2.png`: Accelerated Gradient Descent 2 chart
+- `C1.png`: C1 chart
+- `C2.png`: C2 chart
+- `FISTA-1.png`: FISTA 1 chart
+- `FISTA-2.png`: FISTA 2 chart
+
+## How to Use
+
+1. **Set Up Environment**:
+    - This experiment relies on the following libraries:
+      * numpy
+      * pandas
+      * matplotlib.pyplot
+    - Ensure you have Anaconda or Miniconda installed.
+    - Create the environment using the provided `environment.yml` file:
+      ```sh
+      conda env create -f environment.yml
+      ```
+    - Activate the environment:
+      ```sh
+      conda activate <environment-name>
+      ```
+
+2. **Run the Experiment**:
+    - Open `lab.ipynb` with Jupyter Notebook:
+      ```sh
+      jupyter notebook lab.ipynb
+      ```
+    - Make sure the input files are in the same directory as `lab.ipynb`.
+    - Execute the cells in the notebook to run the optimization experiment and generate results.
+
+3. **View Results**:
+    - Check the charts in the `figures` directory for visual representations of the optimization process.
+    - Read the `Optimization Experiment Report.pdf` for a detailed report on the experiment.
+
+## Project Description
+
+This project aims to compare different optimization algorithms, including FISTA (Fast Iterative Shrinkage-Thresholding Algorithm) and proximal gradient methods. The generated results and charts provide insights into the performance and convergence characteristics of these algorithms.
+
+## Contact
+
+For any questions or inquiries, please contact zuoyihong@mail.ustc.edu.cn.
+
+
 # 优化实验
 
 这个仓库包含了一个优化实验的文件和脚本。该项目包括了与测试的优化算法相关的各种输入数据、方法、结果和图表。
